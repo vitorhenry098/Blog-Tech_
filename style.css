@@ -22,24 +22,31 @@ max-width: 800px;
 margin: 0 auto;
 padding: 16px;
 }
-article (
-}
+
+article {
+
 display: flex;
 margin-bottom: 60px; / Empurra o artigo de baixo, criando o espaço */
+
+}
+
 img{
 width: 150px; /* define a largura fixa da imagem */
 height: 150px; /* define a altura fixa da imagem */
 border: 2px solid #17048f; /* adiciona uma borda sólida de 2px na cor azul/roxa */
 display: block; /* transforma a imagem em um bloco para aceitar margens verticais e quebra de linha */
 margin: 0 auto; /* centraliza a imagem horizontalmente na tela */
-}
 align-self: center;
+}
+
 .artigo-autor {
 font-weight: bold; /* deixa o texto em negrito */
 }
+
 .texto-curto {
   max-width: 65ch; /* Limita a linha a cerca de 45 caracteres */
 }
+
 footer {
 background-color:
 #b4cbc5;
